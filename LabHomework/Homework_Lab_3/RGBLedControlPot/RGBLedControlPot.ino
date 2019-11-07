@@ -18,14 +18,24 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  pot_pin_red_value = analogRead(pot_pin_red);
+
+  read_pot_values(pot_pin_red_value, pot_pin_green_value, pot_pin_blue_value); 
   pin_red_value = map(pot_pin_red_value, 0, 1023, 0, 255);
-  analogWrite(red_light_pin, pin_red_value);
-  pot_pin_green_value = analogRead(pot_pin_green);
   pin_green_value = map(pot_pin_green_value, 0, 1023, 0, 255);
-  analogWrite(green_light_pin, pin_green_value);
-  pot_pin_blue_value = analogRead(pot_pin_blue);
   pin_blue_value = map(pot_pin_blue_value, 0, 1023, 0, 255);
-  analogWrite(blue_light_pin, pin_blue_value);
-  
+  set_colour(255, pin_green_value, pin_blue_value);
+
+}
+void read_pot_values(int &red, int &green, int &blue) {
+
+   red = analogRead(pot_pin_red);
+   green = analogRead(pot_pin_green);
+   blue = analogRead(pot_pin_blue);
+}
+void set_colour(int red, int green, int blue) {
+
+    analogWrite(red_light_pin, pin_red_value);
+    analogWrite(green_light_pin, pin_green_value);
+    analogWrite(blue_light_pin, pin_blue_value);
+
 }
