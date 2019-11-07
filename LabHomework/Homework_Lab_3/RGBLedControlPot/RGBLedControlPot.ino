@@ -23,7 +23,7 @@ void loop() {
   pin_red_value = map(pot_pin_red_value, 0, 1023, 0, 255);
   pin_green_value = map(pot_pin_green_value, 0, 1023, 0, 255);
   pin_blue_value = map(pot_pin_blue_value, 0, 1023, 0, 255);
-  set_colour(255, pin_green_value, pin_blue_value);
+  set_colour(pin_red_value, pin_green_value, pin_blue_value);
 
 }
 void read_pot_values(int &red, int &green, int &blue) {
