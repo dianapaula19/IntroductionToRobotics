@@ -1,10 +1,11 @@
 const int knockSensor = A2;
 const int pushButton = 2;
 const int buzzerPin = 9;
-const int threshold = 100;
+const int threshold = 50;
 const int interval = 5000;
 int pushButtonValue = 0;
 int knockSensorValue = 0;
+int dummySensorValue = 0;
 unsigned long int lastWrongMillis = 0;
 void setup() {
   pinMode(pushButton, INPUT);
@@ -18,6 +19,7 @@ void loop() {
     if(knockSensorValue < threshold) {
       // Only read the values when they are less than the threshold
       knockSensorValue = analogRead(knockSensor);
+      knockSensorValue = knockSensorValue / 4;
       lastWrongMillis = millis();
     }
     if (knockSensorValue >= threshold) {
@@ -30,7 +32,8 @@ void loop() {
           // when the button is pressed, stop the buzzer and read the next value
           Serial.println("the button was pressed");
           noTone(buzzerPin);
-          knockSensorValue = analogRead(knockSensor); 
+          knockSensorValue = analogRead(knockSensor);
+          knockSensorValue = knockSensorValue / 4; 
         }
       }
     }
