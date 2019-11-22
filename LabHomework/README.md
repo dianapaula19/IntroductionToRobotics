@@ -7,3 +7,6 @@ Lab Homework
 4. Name of the file: knockDetectorBuzzer.ino
    
    Description: The one with the knock detector and the way it plays a sound when it's pressed, and also how it stops when you press the pushbutton
+5. Name of the file: joystickControlOfTheFour7-SegmentDisplays.ino
+	
+   Description: The one with the four 7-segment displays and the joystick that modifies each digit
