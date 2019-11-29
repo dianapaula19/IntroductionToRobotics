@@ -25,6 +25,7 @@ int lastButtonState = HIGH;
 int buttonState;
 int choiceOfThePlayer = 0;
 int startingLevelValue = 0;
+int levelAfterGame = 0;
 bool firstTimePressed = false;
 bool choseOption = false;
 bool joyMoved = false;
@@ -129,7 +130,7 @@ void highscoreMenu() {
   lcd.setCursor(0, 0);
   lcd.print("Highscore is:");
   lcd.setCursor(0, 1);
-  lcd.print(startingLevelValue * 3);
+  lcd.print(levelAfterGame * 3);
 }
 
 void setup() {
@@ -187,6 +188,7 @@ void loop() {
           exitMenuCongrats();
           ok = 1;
         }
+        levelAfterGame = startingLevelValue;
         exitMenu();
         setChoseOptionState();
       }
