@@ -114,6 +114,15 @@ void setupMenu() {
   lcd.print("Starting level:");
   lcd.setCursor(0, 1);
   lcd.print(startingLevelValue);
+  if(startingLevelValue < 10) {
+    lcd.setCursor(0, 1);
+    lcd.print("0");
+    lcd.setCursor(1, 1);
+    lcd.print(startingLevelValue);
+  } else {
+    lcd.setCursor(0, 1);
+    lcd.print(startingLevelValue);
+  }
 }
 
 void highscoreMenu() {
@@ -164,8 +173,8 @@ void loop() {
         unsigned long currentMillis = millis();
         if ((currentMillis - prevMillis) > interval) {
           ++startingLevelValue;
-          if (startingLevelValue == 10) {
-            startingLevelValue = 9;
+          if(startingLevelValue == 100) {
+            startingLevelValue = 0;
           }
           ++everyFiveSec;
           prevMillis = currentMillis;
@@ -190,7 +199,7 @@ void loop() {
       yValue = analogRead(pinY);
       if (yValue > maxThreshold && joyMoved == false) {
         ++startingLevelValue;
-        if (startingLevelValue == 10) {
+        if (startingLevelValue == 100) {
           startingLevelValue = 0;
         }
 
@@ -199,7 +208,7 @@ void loop() {
       if (yValue < minThreshold && joyMoved == false) {
         --startingLevelValue;
         if (startingLevelValue == -1) {
-          startingLevelValue = 9;
+          startingLevelValue = 99;
         }
         joyMoved = true;
       }
