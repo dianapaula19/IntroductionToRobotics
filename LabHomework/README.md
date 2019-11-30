@@ -33,5 +33,5 @@ Lab Homework
 
    Highscore: display startingLevelValue * 3
 
-   Video showing how it works: to be added
+   Video showing how it works: http://bit.ly/gameMenu
 	
