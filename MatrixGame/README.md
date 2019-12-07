@@ -26,15 +26,13 @@ and then guide his way through the tunnel making sure he doesn't hit any of the 
 2. LCD
 3. Joystick :joystick:
 4. MAX7219 Driver
-5. Active Buzzer
-6. 2 Pushbuttons
+5. 2 Pushbuttons
 
 ### Game Specifications
 
 - The score is the sum of the scores obtained in the first two parts of the game
 - There are three levels of difficulty
 - There are two requirements for finishing the game: clearing the path in the predefined amount of time and collecting at least one item along the way
-- [Kaneda's theme song](https://www.youtube.com/watch?v=hpDvtIt6Lsc) will play during the second part of the game, I hope. 
 
 ### LCD Display
 The LCD will display 4 options:
