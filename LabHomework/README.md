@@ -26,12 +26,13 @@ Lab Homework
 	
    Title: The one with the game menu
 
-   Description: We are using an lcd to display a game menu with four options, the first option is Start, the second one is Setup and the third one is Highscore.	
+   Description: We are using an lcd to display a game menu with four options, the first option is Start, the second one is Setup and the third one is Highscore.
+   
    Start: increment the startLevelValue by 1 every five seconds, returns to the main menu after 10 seconds have passed and the button has been pressed.
 
-   Setup: set the startingLevelValue. The maximum level value is 9, and the minimum level value is 0
+   Setup: set the startingLevelValue. The maximum level value is 99, and the minimum level value is 0
 
    Highscore: display startingLevelValue * 3
 
-   Video showing how it works: to be added
+   Video showing how it works: http://bit.ly/gameMenu
 	
