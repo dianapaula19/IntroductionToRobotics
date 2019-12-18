@@ -26,7 +26,7 @@ An explosion caused a bunch of rocks to block the exit of a Neo Tokyo tunnel. Cl
 
 ### Game Specifications
 
-- The score will be calculated based on how much time you left.
+- The score will be calculated based on how much time you have left.
 - There are three levels of difficulty
 - There is only one requirement for finishing this game: clearing the path in the predefined time.
 
