@@ -4,6 +4,7 @@
 ### "31 YEARS AFTER WORLD WAR III. AD 2019 NEO TOKYO"
 
 An explosion caused a bunch of rocks to block the exit of a Neo Tokyo tunnel. Clear the path for Kaneda and his gang to pass.  
+Link to the video: http://bit.do/AkiraBreakout
 
 ## Rules
 
