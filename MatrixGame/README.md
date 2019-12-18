@@ -37,5 +37,5 @@ The LCD will display 4 options:
 2. **HighScore**, the high score will be displayed when this option is chosen.
 3. **Setup**, there are two settings available: 
    - setting the level of difficulty
-   - setting the speed of Kaneda's motorcycle
+   - setting the speed of the ball
 4. **Info**, when this option is chosen, the credits will be displayed
