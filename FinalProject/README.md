@@ -28,7 +28,7 @@ The improvement we brought to all of these tutorials was adding two nrf24l01 tra
 - plastic tubes
 - nylon wire
 - superglue
-- ~~the blood of our enemies~~
+- ~~our tears~~
 
 Link to the BOM: http://bit.do/clawMachineBOM
 
