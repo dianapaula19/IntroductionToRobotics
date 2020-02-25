@@ -30,7 +30,7 @@ The improvement we brought to all of these tutorials was adding two nrf24l01 tra
 - superglue
 - ~~the blood of our enemies~~
 
-Link to the
+Link to the BOM: http://bit.do/clawMachineBOM
 
 ## HOW TO PLAY
 
