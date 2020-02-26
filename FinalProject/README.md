@@ -12,8 +12,13 @@ We made a lot of research beforehand and watched a tons of youtube tutorials in 
 The improvement we brought to all of these tutorials was adding two nrf24l01 tranceivers that reduces substantially the number of wires. There's a transmitter at the base of the machine that sends data to the motors found on the top of the machine. 
 
 ## PICS 📷
+![](Images/image_1.jpg)
 
+![](Images/image_2.jpg)
 
+![](Images/image_3.jpg)
+
+![](Images/image_4.jpg)
 ## HARDWARE 
 - 4 N20 dc motors
 - 1 SG90 servo motor
