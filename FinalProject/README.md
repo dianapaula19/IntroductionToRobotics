@@ -2,7 +2,7 @@
 #### For our final project in the "Introduction To Robotics" course, we decided to create a candy claw machine, because we considered it to be a pretty "sweet" idea.
 
 ## DEMO VIDEO
-... to be inserted
+Link to the video: http://bit.do/videoFinalProject
 
 ## THE RESEARCH
 We made a lot of research beforehand and watched a tons of youtube tutorials in order to create this machine. 
@@ -10,6 +10,9 @@ We made a lot of research beforehand and watched a tons of youtube tutorials in 
 - the movement of the claw along the axes was inspired from the following tutorial: http://bit.do/clawMovementXYZ, however instead of cardboard we used hobbyglas and instead of the elastic band we used a nylon wire.
 
 The improvement we brought to all of these tutorials was adding two nrf24l01 tranceivers that reduces substantially the number of wires. There's a transmitter at the base of the machine that sends data to the motors found on the top of the machine. 
+
+## PICS 📷
+
 
 ## HARDWARE 
 - 4 N20 dc motors
