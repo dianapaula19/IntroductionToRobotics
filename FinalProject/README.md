@@ -1,5 +1,5 @@
 # CANDY CLAW MACHINE ARCADE GAME
-#### For our final project in the "Introduction To Robotics" course, we decided to create a candy claw machine, because we considered it to be a pretty "sweet" idea.
+#### For our final project in the "Introduction To Robotics" course, [@Ioana](https://github.com/IoanaBajan) and I decided to create a candy claw machine, because we considered it to be a pretty "sweet" idea.
 
 ## DEMO VIDEO
 Link to the video: http://bit.do/videoFinalProject
