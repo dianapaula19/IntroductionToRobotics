@@ -48,4 +48,16 @@ Link to the BOM: http://bit.do/clawMachineBOM
 
 We also made a pretty cool guide to this game: http://bit.do/clawMachineGuide
 
+## ISSUES
 
+Our project is not fully functional and it has this following issues:
+1. the motors aren't working properly even tho the console's transceiver is sending the correct data
+2. the Servo motor responsible for the opening and closing mechanism of the claw doesn't have enough power to function when the rest of the motors are connected
+3. even though the ultrasonics are working properly, they still can't detect the insertion of the coin
+
+## WHAT WE'VE LEARNED 📕
+
+While making this project we've learned the following things:
+1. that 5 motors require a lot more power than expected in order to function properly
+2. how tranceivers send and receive data
+3. how to use pulleys to make an object lighter
